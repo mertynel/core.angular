@@ -1,0 +1,14 @@
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/bin/Debug/netcoreapp2.1/DatingApp.API.deps.json
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/bin/Debug/netcoreapp2.1/DatingApp.API.runtimeconfig.json
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/bin/Debug/netcoreapp2.1/DatingApp.API.runtimeconfig.dev.json
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/bin/Debug/netcoreapp2.1/DatingApp.API.dll
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/bin/Debug/netcoreapp2.1/DatingApp.API.pdb
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.csprojAssemblyReference.cache
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.csproj.CoreCompileInputs.cache
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.RazorAssemblyInfo.cache
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.RazorAssemblyInfo.cs
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.AssemblyInfoInputs.cache
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.AssemblyInfo.cs
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.RazorTargetAssemblyInfo.cache
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.dll
+/home/martynas/Documents/Udemy/core.angular/DatingApp.API/obj/Debug/netcoreapp2.1/DatingApp.API.pdb

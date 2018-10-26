@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using DatingApp.API.Data;
+using DatingApp.API.Dtos;
 using DatingApp.API.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,27 +11,27 @@ namespace DatingApp.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthRepository _repo;
-        protected AuthController(IAuthRepository authRepository)
+        public AuthController(IAuthRepository authRepository)
         {
             this._repo = authRepository;
         }
 
         [HttpPost("register")]
-        public async Task<IActionResult> Register(string username, string password)
+        public async Task<IActionResult> Register(UserForRegisterDto userForRegister)
         {
             //validate
+        
+            userForRegister.Username = userForRegister.Username.ToLower();
 
-            username = username.ToLower();
-
-            if(await _repo.userExist(username))
+            if(await _repo.userExist(userForRegister.Username))
                 return BadRequest("User already exists");
             
             var userToCreate = new User 
             {
-                Username = username
+                Username = userForRegister.Username
             };
 
-            var createdUser = await _repo.Register(userToCreate, password);
+            var createdUser = await _repo.Register(userToCreate, userForRegister.Password);
 
             return Ok();
         }
